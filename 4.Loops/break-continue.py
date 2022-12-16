@@ -5,6 +5,8 @@ for i in range(12):
     continue
   print("5 X", i, "=", 5 * i)
 
+
+# Emulate do-while loop
 i = 0
 while True:
   print(i)
