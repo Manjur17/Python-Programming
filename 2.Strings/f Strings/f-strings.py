@@ -12,7 +12,10 @@ print(f"We use f-strings like this: Hey my name is {{name}} and I am from {{coun
 price = 49.09999
 txt = f"For only {price:.2f} dollars!"
 print(txt)
-# print(txt.format())
+
+# We can use it in a single statement as well.
+print(f"{2 * 30}")
+print(type(f"{2 * 30})")) #returns a string type 
 
 
 
