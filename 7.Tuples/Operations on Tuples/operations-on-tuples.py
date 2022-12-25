@@ -7,3 +7,5 @@ res = tuple1.index(3, 4, 8)
 
 length = len(tuple1)
 print('Count of 3 in tuple1 is:', res)
+
+
